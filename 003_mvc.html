@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Les 4 - 2019-10-09</title>
+  <meta charset="utf-8">
+  <style>
+    @import url(https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz);
+    @import url(https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic);
+    @import url(https://fonts.googleapis.com/css?family=Ubuntu+Mono:400,700,400italic);
+
+    body {
+      font-family: 'Droid Serif';
+    }
+
+    h1,
+    h2,
+    h3 {
+      font-family: 'Yanone Kaffeesatz';
+      font-weight: normal;
+    }
+
+    .remark-code,
+    .remark-inline-code {
+      font-family: 'Ubuntu Mono';
+    }
+  </style>
+</head>
+
+<body>
+  <textarea id="source">
+
+class: center, middle
+
+# Agenda
+
+1. Design Patterns
+2. Architectural Patterns
+
+---
+# Design Patterns
+
+[Wikipedia](https://en.wikipedia.org/wiki/Software_design_pattern) zegt:
+
+`In software engineering, a software design pattern is a general, reusable solution to a commonly occurring problem within a given context in software design. It is not a finished design that can be transformed directly into source or machine code. It is a description or template for how to solve a problem that can be used in many different situations. Design patterns are formalized best practices that the programmer can use to solve common problems when designing an application or system.` 
+
+---
+# Architecural Patterns
+
+[Wikipedia](https://en.wikipedia.org/wiki/Architectural_pattern) zegt:
+
+`An architectural pattern is a general, reusable solution to a commonly occurring problem in software architecture within a given context.[1] Architectural patterns are similar to software design patterns but have a broader scope. The architectural patterns address various issues in software engineering, such as computer hardware performance limitations, high availability and minimization of a business risk. Some architectural patterns have been implemented within software frameworks.`
+---
+# MVC
+
+Model / View / Controller
+---
+# MVC - Model
+
+* Business Logica
+* Data
+* Centraal stuk, over héél de applicatie.
+
+---
+# MVC - View
+
+* Representatie van de data (meestal visueel).
+
+---
+# MVC - Controller 
+
+* Input omzetten naar commando's voor de view of het model.
+
+---
+</textarea>
+  <script src="https://remarkjs.com/downloads/remark-latest.min.js">
+  </script>
+  <script>
+    var slideshow = remark.create();
+  </script>
+</body>
+
+</html>
